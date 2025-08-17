@@ -27,7 +27,7 @@ curl -fsSL https://fnm.vercel.app/install | bash
 $HOME/.local/share/fnm/fnm use --install-if-missing 22
 
 brew tap FelixKratz/formulae
-brew install fd lazygit neovim borders \
+brew install fd lazygit neovim borders jq \
   sketchybar docker autojump zsh-autosuggestions \
   grep openssh git-lfs tree
 brew install --cask sf-symbols font-hack-nerd-font font-sketchybar-app-font ghostty nikitabobko/tap/aerospace
@@ -43,3 +43,6 @@ cp -r nvim ~/.config/
 cp -r ghostty ~/.config/
 
 cp .zshrc ~/
+
+aerospace
+brew services restart sketchybar
