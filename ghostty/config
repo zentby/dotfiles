@@ -1,0 +1,48 @@
+# By default Reload config with shft + cmd + , 
+config-file = themes/rosepine 
+background = #000000
+background-opacity = 0.90
+background-blur-radius = 23
+font-family = "Hack Nerd Font"
+font-size = 19
+
+# tabs|hidden|native|transparent
+macos-titlebar-style = native
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+
+confirm-close-surface = false
+window-decoration = auto
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = false
+
+auto-update = check
+auto-update-channel = stable
+
+quick-terminal-position=bottom
+macos-window-shadow=false
+
+# extras
+shell-integration-features = no-cursor 
+copy-on-select = clipboard
+
+# Custom Keybinds & Config (super represents cmd key on mac)
+# For Simple Keybinds
+# keybind = super+r=reload_config 
+keybind = super+i=inspector:toggle
+keybind = super+b>,=toggle_quick_terminal
+#keybind = ctrl+esc=toggle_quick_terminal
+
+keybind = super+t=new_window
+keybind = super+shift+n=new_window
+
+# splitting
+keybind = super+b>\=new_split:right
+keybind = super+b>-=new_split:down
+
+# split nav (setting this to control will not work if tmux already uses it)
+keybind = super+b>h=goto_split:left
+keybind = super+b>j=goto_split:bottom
+keybind = super+b>k=goto_split:top
+keybind = super+b>l=goto_split:right
