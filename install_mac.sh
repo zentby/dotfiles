@@ -33,3 +33,13 @@ brew install fd lazygit neovim borders \
 brew install --cask sf-symbols font-hack-nerd-font font-sketchybar-app-font ghostty nikitabobko/tap/aerospace
 
 brew cleanup
+
+# Copy/replace configs
+
+mkdir -p ~/.config
+cp -r aerospace ~/.config/
+cp -r sketchybar ~/.config/
+cp -r nvim ~/.config/
+cp -r ghostty ~/.config/
+
+cp .zshrc ~/
