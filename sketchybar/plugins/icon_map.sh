@@ -108,7 +108,7 @@ function __icon_map() {
    "ClickUp")
         icon_result=":click_up:"
         ;;
-   "Code" | "Code - Insiders")
+   "Code" | "Code - Insiders" | "Cursor")
         icon_result=":code:"
         ;;
    "Color Picker" | "数码测色计")
@@ -528,7 +528,7 @@ function __icon_map() {
    "Telegram")
         icon_result=":telegram:"
         ;;
-   "Terminal" | "终端" | "Tabby")
+   "Terminal" | "终端" | "Tabby" | "Ghostty")
         icon_result=":terminal:"
         ;;
    "Typora")
